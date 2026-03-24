@@ -48,7 +48,7 @@ Update_graph_DT <- function(g, x, y, circle_info, r, dt = 50) {
 
 # Function: DT_Alg
 # Main DT navigation algorithm. Iteratively finds shortest paths under current
-# edge weights, advances to the first ambiguous obstacle edge, disambiguates,
+# edge weights, traverse to the first ambiguous obstacle edge, disambiguates,
 # and updates the graph accordingly.
 # -----------------------------------------------------------------------------
 DT_Alg <- function(obs_info, r, x, y, s, t, dt = 50) {
