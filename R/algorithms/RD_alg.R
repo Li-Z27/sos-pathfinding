@@ -49,7 +49,7 @@ Update_graph_RD <- function(g, x, y, circle_info, r) {
 
 # Function: RD_Alg
 # Main RD navigation algorithm. Iteratively finds shortest paths under current
-# edge weights, advances to the first ambiguous obstacle edge, disambiguates,
+# edge weights, traverse to the first ambiguous obstacle edge, disambiguates,
 # and updates the graph accordingly.
 # -----------------------------------------------------------------------------
 RD_Alg <- function(obs_info, r, x, y, s, t) {
